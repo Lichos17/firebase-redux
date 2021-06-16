@@ -1,0 +1,23 @@
+.modal__form {
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 90%;
+  margin: 0;
+}
+
+.modal__input {
+  padding: 0.8rem;
+  border-radius: 10px;
+  border: solid $purple-color 1px;
+  margin: 1rem 0;
+  width: 100%;
+  min-width: 100%;
+  align-self: center;
+}
+
+.modal__label {
+  align-self: flex-start;
+}

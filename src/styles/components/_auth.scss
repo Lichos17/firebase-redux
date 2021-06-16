@@ -1,0 +1,31 @@
+.auth__card {
+  background-color: #fff;
+  height: 80vh;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 40px;
+  align-self: center;
+  justify-self: center;
+}
+
+.auth__form {
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 50%;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .auth__card {
+    height: 100vh;
+    padding: 1rem 0;
+  }
+}
+@media (max-width: 600px) {
+  .auth__form {
+    width: 90%;
+  }
+}
