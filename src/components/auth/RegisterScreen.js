@@ -66,7 +66,7 @@ export const RegisterScreen = () => {
             className="m-2"
           >Register</h3>
 
-          <label htmlFor='name' className="modal__label">Username</label>
+          <label htmlFor='name' className="modal__label">Name</label>
           <input 
             id="name"
             name='name'
@@ -74,7 +74,7 @@ export const RegisterScreen = () => {
             value={name}
             onChange={handleInputChange}
           />
-          <label htmlFor='email' className="modal__label">Username</label>
+          <label htmlFor='email' className="modal__label">Email</label>
           <input 
             id="email"
             name='email'
